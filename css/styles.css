@@ -1,0 +1,176 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: 900;
+    padding-bottom: 2rem;
+}
+
+p {
+    color: #8f8f8f;
+    font-size: 1.2rem;
+}
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.1rem;
+}
+
+.nav-item {
+    font-size: 1.1rem;
+    padding: 0 18px;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+#features h3,
+#pricing h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: left;
+}
+
+.download-button {
+    margin-right: 1rem;
+    margin-top: 0.75rem;
+}
+
+.iphone {
+    left: 56%;
+    position: absolute;
+    transform: rotate(25deg);
+    width: 20%;
+}
+
+#features {
+    background-color: #fff;
+    padding: 8% 15%;
+    position: relative;
+}
+
+.icon {
+    color: #ef8172;
+    padding-bottom: 2.0rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+    padding-bottom: 2.0rem;
+}
+
+#testimonials {
+    background-color: #ef8172;
+    color: #fff;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
+
+.testimonial-img {
+    border-radius: 100%;
+    margin: 20px;
+    width: 10%;
+}
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-img {
+    margin: 20px 20px 70px;
+    width: 10%;
+}
+
+.carousel-item {
+    padding: 5% 15%;
+}
+
+#pricing {
+    padding-top: 3rem;
+}
+
+.card {
+    height: 100%;
+}
+
+.pricing-col {
+    padding: 3% 2%;
+}
+
+.btn-margin1,
+.btn-margin2
+ {
+    margin-top: 20%;
+}
+
+#cta {
+    background-color: #ff4c68;
+    color: #fff;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+    padding: 7% 15% 7%;
+    text-align: center;
+}
+
+#cta h3 {
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+#footer {
+    padding: 3% 15% 3%;
+}
+
+.social-media {
+    padding-bottom: 2%;
+}
+
+.icon-footer {
+    padding: 0 2%;
+}
+
+@media (max-width: 1028px) {
+
+    #title {
+        font-weight: 900;
+        text-align: center;
+    }
+
+    .iphone {
+        margin: 5rem auto 1rem;
+        position: static;
+        transform: rotate(0);
+        width: 50%;
+    }
+
+}
+
+@media (max-width: 1212px) and (min-width: 992px) {
+    .btn-margin1 {
+        margin-top: 59%;
+    }
+    .btn-margin2 {
+        margin-top: 25%;
+    }
+}
